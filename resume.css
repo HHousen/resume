@@ -130,9 +130,11 @@ h1 ~ ul:nth-child(3) {
     list-style: none;
 }
 /* Footer */
-p:last-child {
+/* p:last-child {
     text-align: right;
     font-size: 10px;
+} */
+p:last-child {
     margin-bottom: 0px;
 }
 @media print {
