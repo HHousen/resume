@@ -16,7 +16,7 @@ preamble = """\
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>{title}</title>
+<title>{title} - Resume</title>
 <style>
 {css}
 </style>
@@ -97,7 +97,7 @@ def title(md: str) -> str:
     )
 
 
-def make_html(md: str, prefix: str = "resume") -> str:
+def make_html(md: str, prefix: str = "resume", minify=True) -> str:
     """
     Compile md to HTML and prepend/append preamble/postamble.
 
@@ -109,13 +109,17 @@ def make_html(md: str, prefix: str = "resume") -> str:
     except FileNotFoundError:
         print(prefix + ".css not found. Output will by unstyled.")
         css = ""
-    return "".join(
+    html = "".join(
         (
             preamble.format(title=title(md), css=css),
             markdown.markdown(md, extensions=["smarty", "abbr"]),
             postamble,
         )
     )
+    if minify:
+        import minify_html
+        html = minify_html.minify(html, remove_processing_instructions=True, minify_css=True)
+    return html
 
 
 def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
