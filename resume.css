@@ -133,6 +133,7 @@ h1 ~ ul:nth-child(3) {
 p:last-child {
     text-align: right;
     font-size: 10px;
+    margin-bottom: 0px;
 }
 @media print {
     body {
