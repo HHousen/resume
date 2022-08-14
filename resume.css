@@ -1,61 +1,113 @@
 body {
     color: #000000;
     background: #EEEEEE;
-    font: 1.1em "Times New Roman";
-    line-height: 1.2;
     margin: 40px 0;
+    font-family: Barlow, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.2;
 }
 #resume {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 8.5in;
     padding: 40px 60px;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     box-shadow: 2px 2px 4px #AAAAAA;
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+    box-sizing: border-box;
+    position: relative;
 }
+/* Name at top */
 h1 {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 200%;
-    margin: 0;
-    padding: 0;
+    margin: 0px 0px 8px;
+    font-weight: 600;
+    font-size: 36px;
 }
+/* Section headings */
 h2 {
-    border-bottom: 1px solid #000000;
-    text-transform: uppercase;
-    font-size: 130%;
-    margin: 1em 0 0 0;
-    padding: 0;
+    margin: 20px 0px 13px;
+    font-weight: 600;
+    color: rgb(168, 32, 41);
+    font-size: 20px;
+    display: flex;
+}
+/* Section heading bar */
+h2::after {
+    margin: 13.2px 0px 0px 16px;
+    display: inline-block;
+    flex-grow: 1;
+    height: 2px;
+    background-color: rgb(168, 32, 41);
+    content: "";
+}
+/* No spacing between title and first section */
+h2:first-child {
+    margin: 0px !important;
+}
+h2 + h3 {
+    margin: 0px 0px 0.3em 0px;
 }
 h3 {
     font-size: 100%;
     margin: 0.8em 0 0.3em 0;
-    padding: 0;
+    display: flex;
+    align-items: baseline;
+}
+/* Job/project titles */
+h3 > span:first-child {
+    margin: 0px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    width: 260px;
+}
+/* Job names and dates */
+h3 > span:last-child {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+    flex-grow: 1;
+}
+h3 > span span {
+    font-size: 13px;
+    font-weight: 600;
+}
+/* Job dates */
+h3 > span span:last-child {
+    color: rgb(79, 81, 87);
+}
+/* Technologies and Languages style */
+h2 ~ p span:first-child {
+    display: inline-block;
+    width: 260px;
+    font-weight: 600;
+}
+strong {
+    font-weight: 600;
 }
 p {
     margin: 0 0 0.5em 0;
     padding: 0;
-    }
+}
 ul {
     padding: 0;
     margin: 0 1.5em;
-    }
+}
 /* ul immediately after h1 = contact list */
 h1 + ul {
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
-    }
+}
 h1 + ul > li {
     display: inline;
     white-space: pre;
     list-style-type: none;
 }
 h1 + ul > li:after {
-    content: "  \2022  ";
+    content: "\2022";
+    padding: 0px 5px;
 }
 h1 + ul > li:last-child:after {
     content: "";
@@ -64,9 +116,26 @@ h1 + ul > li:last-child:after {
 h1 + ul + p {
     margin: 1em 0;
 }
+h3 + ul li {
+    margin-bottom: 6px;
+}
+/* Social Links */
+h1 ~ ul:nth-child(3) {
+    position: absolute;
+    padding: inherit;
+    top: 0;
+    right: 0;
+    margin: 0px;
+    text-align: right;
+    list-style: none;
+}
+/* Footer */
+p:last-child {
+    text-align: right;
+    font-size: 10px;
+}
 @media print {
     body {
-        font-size: 10pt;
         margin: 0;
         padding: 0;
         background: none;
@@ -95,7 +164,7 @@ h1 + ul + p {
     /* Change margins and paper size of PDF */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
     size: letter;
-    margin: 0.5in 0.8in;
+    margin: 40px 60px;
 }
 @media screen and (max-width: 800px) {
     body {
