@@ -20,6 +20,7 @@ is intended to be used for a short summary. -->
 ### <span>Cornell University</span> <span><span>Computer Science, BS</span> <span>Aug 2021 -- May 2025</span></span>
 
 - GPA: 3.826, Dean's Honor List
+- Coursework: Object-Oriented Programming and Data Structures, Discrete Structures, Linear Algebra, Probability and Statistics
 
 ## Work Experience
 
@@ -29,7 +30,7 @@ hand -->
 
 - Conducted **>60 experiments** and trained >110 models to increase the accuracy of Ada's intent classification pipeline.
 - Experimented with knowledge transfer, unsupervised learning of sentence embeddings, multi-task learning, and contrastive losses in the context of transformers and SVMs.
-- My technique matched production accuracy using only 3% of production data.
+- My technique **improved production accuracy by 8%** using only 3% of production data.
 
 ### <span>Undergraduate Researcher</span> <span><span>Cornell University AI</span> <span>Sept 2021 -- May 2022</span></span>
 
@@ -38,9 +39,9 @@ hand -->
 
 ### <span>Machine Learning Intern</span> <span><span><a href="https://ada.cx">Ada Support</a> (Remote)</span> <span>May 2021 -- Aug 2021</span></span>
 
-- Led a project to enable Ada chatbots to better understand non-English languages.
-- Cleaned and analyzed 9 billion chat messages to train state-of-the-art multilingual machine learning models.
-- Experimented with novel techniques and cultivated skills in PyTorch, transformers, and pandas.
+- Led the discovery and experimentation phases of a project to enable Ada chatbots to better understand non-English languages.
+- Wrote a data processing pipeline to efficiently clean and analyze **9 billion** chat messages for machine learning models.
+- Researched novel techniques in multilingual intent prediction and cultivated skills in PyTorch, transformers, and pandas.
 
 ## Projects
 
@@ -50,16 +51,16 @@ hand -->
 - Named a **top 300 scholar in the 2021 Regeneron Science Talent Search**, the nation’s oldest and most prestigious science and math competition for high school seniors.
 - Deployed ML pipeline in production via a [full-stack website](https://lecture2notes.com/) powered by Docker, Flask, Celery, Bootstrap, and Stripe.
 
-<!-- ### <span>AI Snow Day Prediction</span> <span><span><a href="https://haydenhousen.com/projects/will-i-have-a-snow-day/">Will I Have A Snow Day.com</a></span> <span>Dec 2019 -- Sept 2020</span></span>
-
-- Created an AI-powered automatic snow day predictor website that improves itself over time using user feedback. Powered by scikit-learn, Materialize.css, and Flask. Source on [GitHub](https://github.com/HHousen/willihaveasnowday).
-- In the pursuit of greater accuracy, worked with many machine learning algorithms and data processing techniques. -->
-
-### <span>Neural Summarization Library</span> <span><span><a href="https://github.com/HHousen/TransformerSum">TransformerSum</a></span> <span>Mar 2020 -- Aug 2020</span></span>
+### <span>Neural Summarization Library</span> <span><span><a href="https://github.com/HHousen/TransformerSum">TransformerSum</a></span> <span>Mar 2020 -- Oct 2020</span></span>
 
 - Furthered research in neural-network text summarization models with a focus on long document summarization.
-- 4.45x smaller than state-of-the-art model but 94% as accurate at release. 10+ pre-trained models available.
+- 4.45x smaller than the state-of-the-art model but 94% as accurate at release. 10+ pre-trained models available.
 - Designed with code readability and thorough documentation as top priorities. **300+ stars on [GitHub](https://github.com/HHousen/TransformerSum)**.
+
+### <span>AI Snow Day Prediction</span> <span><span><a href="https://haydenhousen.com/projects/will-i-have-a-snow-day/">Will I Have A Snow Day.com</a></span> <span>Dec 2019 -- Sept 2020</span></span>
+
+- Created an AI-powered automatic snow day predictor website that improves itself over time using user feedback. Powered by scikit-learn, Materialize.css, SendGrid, and Flask. Source on [GitHub](https://github.com/HHousen/willihaveasnowday).
+- Correlated **100GB+** of weather data from NOAA with school closings to select good features and train a gradient boosting classifier.
 
 ### <span>Cybersecurity Challenges</span> <span><span>CTFs</span> <span>Sept 2019 -- Current</span></span>
 
