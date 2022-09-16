@@ -34,7 +34,7 @@ hand -->
 
 ### <span>Undergraduate Researcher</span> <span><span>Cornell University AI</span> <span>Sept 2021 -- May 2022</span></span>
 
-- Overcame bias in paraphrase identification by using transformers & out-of-distribution detection techniques. Advised by Dr. Sernam Lim at Meta AI. Published in ICML 2022, [Principles Of Distribution Shift](https://sites.google.com/view/icml-2022-pods/) Workshop.
+- Overcame bias in paraphrase identification by using transformers & out-of-distribution detection techniques: "[GAPX: Generalized](https://haydenhousen.com/media/GAPX.pdf) [Autoregressive Paraphrase-identification X](https://haydenhousen.com/media/GAPX.pdf)." Published in NeurIPS 2022 (3rd author). Advised by Dr. Sernam Lim at Meta AI.
 - Experimented with zero-shot image classification via OpenAI’s CLIP model.
 
 ### <span>Machine Learning Intern</span> <span><span><a href="https://ada.cx">Ada Support</a> (Remote)</span> <span>May 2021 -- Aug 2021</span></span>
