@@ -19,7 +19,7 @@ is intended to be used for a short summary. -->
 
 ### <span>Cornell University</span> <span><span>Computer Science, BS</span> <span>Aug 2021 -- May 2025</span></span>
 
-- GPA: 3.826, Dean's Honor List
+- GPA: 3.826, Dean's Honor List, Rawlings Presidential Research Scholar
 - Coursework: Object-Oriented Programming and Data Structures, Discrete Structures, Linear Algebra, Probability and Statistics
 
 ## Work Experience
@@ -28,13 +28,13 @@ is intended to be used for a short summary. -->
 hand -->
 ### <span>Machine Learning Intern</span> <span><span><a href="https://ada.cx">Ada Support</a> (Remote)</span> <span>May 2022 -- Aug 2022</span></span>
 
-- Conducted **>60 experiments** and trained >110 models to increase the accuracy of Ada's intent classification pipeline.
-- Experimented with knowledge transfer, unsupervised learning of sentence embeddings, multi-task learning, and contrastive losses in the context of transformers and SVMs.
-- My technique **improved production accuracy by 8%** using only 3% of production data.
+- **Improved Ada's production accuracy by 8%** using only 3% of production data by developing a novel intent classification pipeline.
+- Conducted **>60 experiments** and trained >110 models to determine the most accurate methodology.
+- Experimented with knowledge transfer, unsupervised learning of sentence embeddings, multi-task learning, and contrastive losses in the context of transformers and support vector machines.
 
 ### <span>Undergraduate Researcher</span> <span><span>Cornell University AI</span> <span>Sept 2021 -- May 2022</span></span>
 
-- Overcame bias in paraphrase identification by using transformers & out-of-distribution detection techniques: "[GAPX: Generalized](https://haydenhousen.com/media/GAPX.pdf) [Autoregressive Paraphrase-Identification X](https://haydenhousen.com/media/GAPX.pdf)." Published in NeurIPS 2022 (3rd author). Advised by Dr. Sernam Lim at Meta AI.
+- Overcame bias in paraphrase identification by using **transformers** & out-of-distribution detection techniques: "[GAPX: Generalized](https://haydenhousen.com/media/GAPX.pdf) [Autoregressive Paraphrase-Identification X](https://haydenhousen.com/media/GAPX.pdf)." Published in NeurIPS 2022 (3rd author). Advised by Dr. Sernam Lim at Meta AI.
 - Experimented with zero-shot image classification via OpenAI’s CLIP model.
 
 ### <span>Machine Learning Intern</span> <span><span><a href="https://ada.cx">Ada Support</a> (Remote)</span> <span>May 2021 -- Aug 2021</span></span>
@@ -47,32 +47,36 @@ hand -->
 
 ### <span>AI Lecture Notes Generation</span> <span><span><a href="https://haydenhousen.com/projects/lecture2notes/">lecture2notes</a></span> <span>Sept 2019 -- Jan 2022</span></span>
 
-- Conducted [scientific research](https://haydenhousen.com/media/lecture2notes-paper-v1.pdf) and created a state-of-the-art system to summarize classroom lectures using deep learning, computer vision, and NLP. Source on [GitHub](https://github.com/HHousen/lecture2notes/).
+- Created a state-of-the-art system to summarize classroom lectures using PyTorch, transformers (BERT), optical character recognition, speech to text, and convolutional neural networks. Source on [GitHub](https://github.com/HHousen/lecture2notes/). Learn more in the [research paper](https://haydenhousen.com/media/lecture2notes-paper-v1.pdf).
 - Named a **top 300 scholar in the 2021 Regeneron Science Talent Search**, the nation’s oldest and most prestigious science and math competition for high school seniors.
 - Deployed ML pipeline in production via a [full-stack website](https://lecture2notes.com/) powered by Docker, Flask, Celery, Bootstrap, and Stripe.
 
 ### <span>Neural Summarization Library</span> <span><span><a href="https://github.com/HHousen/TransformerSum">TransformerSum</a></span> <span>Mar 2020 -- Oct 2020</span></span>
 
-- Furthered research in neural-network text summarization models with a focus on long document summarization.
+- Furthered research in neural-network text summarization with a focus on long document summarization. **310+ stars on [GitHub](https://github.com/HHousen/TransformerSum)**.
 - 4.45x smaller than the state-of-the-art model but 94% as accurate at release. 10+ pre-trained models available.
-- Designed with code readability and thorough documentation as top priorities. **300+ stars on [GitHub](https://github.com/HHousen/TransformerSum)**.
+- Rewrote researchers' code with enhanced performance and a focus on code readability and [thorough documentation](https://transformersum.readthedocs.io/en/latest/).
 
 ### <span>AI Snow Day Prediction</span> <span><span><a href="https://haydenhousen.com/projects/will-i-have-a-snow-day/">Will I Have A Snow Day.com</a></span> <span>Dec 2019 -- Sept 2020</span></span>
 
-- Created an AI-powered automatic snow day predictor website that improves itself over time using user feedback. Powered by scikit-learn, Materialize.css, SendGrid, and Flask. Source on [GitHub](https://github.com/HHousen/willihaveasnowday).
-- Correlated **100GB+** of weather data from NOAA with school closings to select good features and train a gradient boosting classifier.
+- Created an AI-powered automatic snow day predictor website that improves itself over time using user feedback. Powered by XGBoost, scikit-learn, Materialize.css, SendGrid, and Flask. Source on [GitHub](https://github.com/HHousen/willihaveasnowday).
+- Scraped school closings and reprocessed **100GB+** of weather data from NOAA to build a snow day dataset.
+- Trained a gradient boosting classifier after extensive data exploration and feature engineering.
 
-### <span>Cybersecurity Challenges</span> <span><span>CTFs</span> <span>Sept 2019 -- Current</span></span>
+### <span>Cybersecurity Challenges</span> <span><span>Capture The Flag</span> <span>Sept 2019 -- Current</span></span>
 
-- Placed in **top 3%** on average in the PicoCTF [2019](https://github.com/HHousen/PicoCTF-2019)/[2021](https://github.com/HHousen/PicoCTF-2021)/[2022](https://github.com/HHousen/PicoCTF-2022) competitions. Wrote detailed writeups to document my learning and help others.
-- Continuously practicing ethical hacking skills by solving HackTheBox.com machines and [publishing writeups](https://htb.haydenhousen.com/).
+- Placed in **top 3%** on average in the PicoCTF [2019](https://github.com/HHousen/PicoCTF-2019)/[2021](https://github.com/HHousen/PicoCTF-2021)/[2022](https://github.com/HHousen/PicoCTF-2022) competitions. Learned ethical hacking skills including web exploitation, cryptography, reverse engineering, and binary exploitation. Worked with popular tools included in Kali Linux.
+- Wrote technical guides with **over 94,000 views** to document my learning and help others.
+- Continuously practicing cybersecurity principles by solving HackTheBox.com machines and [publishing writeups](https://htb.haydenhousen.com/).
 
 ## Technologies and Languages
 
-<span>Languages</span> <span>Python (& PyTorch), Java, JavaScript, HTML/CSS, SQL</span>
+<span>Languages</span> <span>Python, Java, JavaScript, HTML/CSS, SQL</span>
 
-<span>Web</span> <span>Flask, Bootstrap, jQuery, Materialize.css, web scraping</span>
+<span>Machine Learning</span> <span>PyTorch, transformers (BERT), scikit-learn, Lightning, pandas, OpenCV, Spacy, NumPy</span>
 
-<span>Other</span> <span>API design, relational databases, MongoDB, Docker, Kali Linux, Metasploit</span>
+<span>Web</span> <span>Flask, Bootstrap, jQuery, web scraping, API design</span>
+
+<span>DevOps and DB</span> <span>MongoDB, Docker, relational databases, AWS</span>
 
 <!-- Resume [generated from markdown](https://github.com/HHousen/resume) and styled with my custom CSS via a python script. -->
