@@ -71,12 +71,12 @@ hand -->
 
 ## Technologies and Languages
 
-<span>Languages</span> <span>Python, Java, JavaScript, HTML/CSS, SQL</span>
+<span>Languages</span> <span>Python, Java, JavaScript, HTML/CSS, SQL, C</span>
 
 <span>Machine Learning</span> <span>PyTorch, transformers (BERT), scikit-learn, Lightning, pandas, OpenCV, Spacy, NumPy</span>
 
-<span>Web</span> <span>Flask, Bootstrap, jQuery, web scraping, API design</span>
+<span>Web</span> <span>Flask, Bootstrap, jQuery, React, web scraping, API design</span>
 
-<span>DevOps and DB</span> <span>MongoDB, Docker, relational databases, AWS</span>
+<span>DB and DevOps</span> <span>MongoDB, PostgreSQL, MySQL, Docker, AWS, CI/CD, Git</span>
 
 <!-- Resume [generated from markdown](https://github.com/HHousen/resume) and styled with my custom CSS via a python script. -->
