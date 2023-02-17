@@ -20,7 +20,6 @@ is intended to be used for a short summary. -->
 ### <span>Cornell University</span> <span><span>Computer Science, BS</span> <span>Aug 2021 -- May 2025</span></span>
 
 - GPA: 3.826, Dean's Honor List, Rawlings Presidential Research Scholar
-- Coursework: Object-Oriented Programming and Data Structures, Discrete Structures, Linear Algebra, Probability and Statistics
 
 ## Work Experience
 
@@ -34,7 +33,7 @@ hand -->
 
 ### <span>Undergraduate Researcher</span> <span><span>Cornell University AI</span> <span>Sept 2021 -- May 2022</span></span>
 
-- Overcame bias in paraphrase identification by using **transformers** & out-of-distribution detection techniques: "[GAPX: Generalized](https://haydenhousen.com/media/GAPX.pdf) [Autoregressive Paraphrase-Identification X](https://haydenhousen.com/media/GAPX.pdf)." Published in NeurIPS 2022 (3rd author). Advised by Dr. Sernam Lim at Meta AI.
+- Overcame bias in paraphrase identification by using transformers & out-of-distribution detection techniques: "[GAPX: Generalized](https://haydenhousen.com/media/GAPX.pdf) [Autoregressive Paraphrase-Identification X](https://haydenhousen.com/media/GAPX.pdf)." Published in **NeurIPS 2022** (3rd author). Advised by Dr. Sernam Lim at Meta AI.
 - Experimented with zero-shot image classification via OpenAI’s CLIP model.
 
 ### <span>Machine Learning Intern</span> <span><span><a href="https://ada.cx">Ada Support</a> (Remote)</span> <span>May 2021 -- Aug 2021</span></span>
@@ -53,14 +52,14 @@ hand -->
 
 ### <span>Neural Summarization Library</span> <span><span><a href="https://github.com/HHousen/TransformerSum">TransformerSum</a></span> <span>Mar 2020 -- Oct 2020</span></span>
 
-- Furthered research in neural-network text summarization with a focus on long document summarization. **310+ stars on [GitHub](https://github.com/HHousen/TransformerSum)**.
+- Furthered research in neural-network text summarization with a focus on long document summarization. **340+ stars on [GitHub](https://github.com/HHousen/TransformerSum)**.
 - 4.45x smaller than the state-of-the-art model but 94% as accurate at release. 10+ pre-trained models available.
 - Rewrote researchers' code with enhanced performance and a focus on code readability and [thorough documentation](https://transformersum.readthedocs.io/en/latest/).
 
 ### <span>AI Snow Day Prediction</span> <span><span><a href="https://haydenhousen.com/projects/will-i-have-a-snow-day/">Will I Have A Snow Day.com</a></span> <span>Dec 2019 -- Sept 2020</span></span>
 
 - Created an AI-powered automatic snow day predictor website that improves itself over time using user feedback. Powered by XGBoost, scikit-learn, Materialize.css, SendGrid, and Flask. Source on [GitHub](https://github.com/HHousen/willihaveasnowday).
-- Scraped school closings and reprocessed **100GB+** of weather data from NOAA to build a snow day dataset.
+- Scraped school closings and processed **100GB+** of weather data from NOAA to build a snow day dataset.
 - Trained a gradient boosting classifier after extensive data exploration and feature engineering.
 
 ### <span>Cybersecurity Challenges</span> <span><span>Capture The Flag</span> <span>Sept 2019 -- Current</span></span>
@@ -71,11 +70,11 @@ hand -->
 
 ## Technologies and Languages
 
-<span>Languages</span> <span>Python, Java, JavaScript, HTML/CSS, SQL, C</span>
+<span>Languages</span> <span>Python, Java, JavaScript, HTML/CSS, SQL, OCaml, C</span>
 
 <span>Machine Learning</span> <span>PyTorch, transformers (BERT), scikit-learn, Lightning, pandas, OpenCV, Spacy, NumPy</span>
 
-<span>Web</span> <span>Flask, Bootstrap, jQuery, React, web scraping, API design</span>
+<span>Web</span> <span>Flask, React Native (Expo), Bootstrap, jQuery, web scraping, API design</span>
 
 <span>DB and DevOps</span> <span>MongoDB, PostgreSQL, MySQL, Docker, AWS, CI/CD, Git</span>
 
