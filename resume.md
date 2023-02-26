@@ -19,7 +19,7 @@ is intended to be used for a short summary. -->
 
 ### <span>Cornell University</span> <span><span>Computer Science, BS</span> <span>Aug 2021 -- May 2025</span></span>
 
-- GPA: 3.826, Dean's Honor List, Rawlings Presidential Research Scholar
+- GPA: 3.865, Dean's Honor List, Rawlings Presidential Research Scholar
 
 ## Work Experience
 
