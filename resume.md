@@ -20,6 +20,7 @@ is intended to be used for a short summary. -->
 ### <span>Cornell University</span> <span><span>Computer Science, BS</span> <span>Aug 2021 -- May 2025</span></span>
 
 - GPA: 3.865, Dean's Honor List, Rawlings Presidential Research Scholar
+- Coursework: Machine Learning, Artificial Intelligence, Functional Programming, Linear Algebra, Probability and Statistics
 
 ## Work Experience
 
@@ -70,9 +71,9 @@ hand -->
 
 ## Technologies and Languages
 
-<span>Languages</span> <span>Python, Java, JavaScript, HTML/CSS, SQL, OCaml, C</span>
+<span>Languages</span> <span>Python, Java, JavaScript, HTML/CSS, SQL, OCaml, C, Bash</span>
 
-<span>Machine Learning</span> <span>PyTorch, transformers (BERT), scikit-learn, Lightning, pandas, OpenCV, Spacy, NumPy</span>
+<span>Machine Learning</span> <span>PyTorch, transformers (BERT), scikit-learn, NumPy, Lightning, pandas, OpenCV, Spacy</span>
 
 <span>Web</span> <span>Flask, React Native (Expo), Bootstrap, jQuery, web scraping, API design</span>
 
