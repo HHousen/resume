@@ -25,16 +25,16 @@ is intended to be used for a short summary. -->
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
+### <span>Undergraduate Researcher</span> <span><span>Cornell University</span> <span>Sept 2021 -- Present</span></span>
+
+- Currently working with Dr. Kevin Ellis on unsupervised object discovery using Slot Attention.
+- Overcame bias in paraphrase identification by using transformers & out-of-distribution detection techniques: "[GAPX: Generalized](https://haydenhousen.com/media/GAPX.pdf) [Autoregressive Paraphrase-Identification X](https://haydenhousen.com/media/GAPX.pdf)." Published in **NeurIPS 2022** (3rd author). Advised by Dr. Sernam Lim at Meta AI.
+
 ### <span>Machine Learning Intern</span> <span><span><a href="https://ada.cx">Ada Support</a> (Remote)</span> <span>May 2022 -- Aug 2022</span></span>
 
 - **Improved Ada's production accuracy by 8%** using only 3% of production data by developing a novel intent classification pipeline.
 - Conducted **>60 experiments** and trained >110 models to determine the most accurate methodology.
 - Experimented with knowledge transfer, unsupervised learning of sentence embeddings, multi-task learning, and contrastive losses in the context of transformers and support vector machines.
-
-### <span>Undergraduate Researcher</span> <span><span>Cornell University AI</span> <span>Sept 2021 -- May 2022</span></span>
-
-- Overcame bias in paraphrase identification by using transformers & out-of-distribution detection techniques: "[GAPX: Generalized](https://haydenhousen.com/media/GAPX.pdf) [Autoregressive Paraphrase-Identification X](https://haydenhousen.com/media/GAPX.pdf)." Published in **NeurIPS 2022** (3rd author). Advised by Dr. Sernam Lim at Meta AI.
-- Experimented with zero-shot image classification via OpenAI’s CLIP model.
 
 ### <span>Machine Learning Intern</span> <span><span><a href="https://ada.cx">Ada Support</a> (Remote)</span> <span>May 2021 -- Aug 2021</span></span>
 
@@ -76,6 +76,6 @@ hand -->
 
 <span>Web</span> <span>Flask, React Native (Expo), Bootstrap, jQuery, web scraping, API design</span>
 
-<span>DB and DevOps</span> <span>MongoDB, PostgreSQL, MySQL, Docker, AWS, CI/CD, Git</span>
+<span>DB and DevOps</span> <span>MongoDB, PostgreSQL, MySQL, Docker, AWS, Firebase, CI/CD, Git</span>
 
 <!-- Resume [generated from markdown](https://github.com/HHousen/resume) and styled with my custom CSS via a python script. -->
