@@ -131,8 +131,10 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
     options = [
         "--no-sandbox",
         "--headless",
-        "--print-to-pdf-no-header",
+        "--no-pdf-header-footer",
         "--enable-logging=stderr",
+        "--virtual-time-budget=10000",
+        "--font-render-hinting=none",
         "--log-level=2",
         "--in-process-gpu",
         "--disable-gpu",
