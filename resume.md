@@ -4,8 +4,7 @@
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 - <hayden@haydenhousen.com>
-- (845) 518-1380
-- Ithaca, NY
+- San Francisco, CA
 
 <!-- Social Links -->
 - [haydenhousen.com](https://haydenhousen.com)
@@ -26,15 +25,19 @@ is intended to be used for a short summary. -->
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
+### <span>Co-founder & CTO</span> <span><span><a href="https://sonauto.ai">Sonauto</a> (YC W24)</span> <span>Jan 2023 -- Present</span></span>
+
+- Sonauto is an AI music editor that turns prompts, lyrics, or melodies into full songs in any style.
+
 ### <span>Software Engineering Intern</span> <span><span><a href="https://vocode.dev">Vocode</a> (YC W23)</span> <span>May 2023 -- Aug 2023</span></span>
 
 - Collaborated directly with founders as a pivotal engineer to shape Vocode's pioneering AI-driven call automation solutions.
 - Demonstrated versatility as a fullstack developer by building the FastAPI backend, open-source self-hosted service (Python and asyncio), and frontend dashboard (Next.js), while also resolving issues and reviewing pull requests from the community.
 - Evaluated the latencies of multiple LLMs, speech-to-text APIs, and synthesis services to enhance Vocode's performance.
 
-### <span>Undergraduate Researcher</span> <span><span>Cornell University</span> <span>Sept 2021 -- Present</span></span>
+### <span>Undergraduate Researcher</span> <span><span>Cornell University</span> <span>Sept 2021 -- May 2023</span></span>
 
-- Worked with Dr. Kevin Ellis on unsupervised object discovery using Slot Attention and investigated applications to options learning.
+- Worked with Dr. Kevin Ellis on unsupervised object discovery using Slot Attention (open source on [GitHub](https://github.com/HHousen/object-discovery-pytorch)) and investigated the scaling capabilities of reinforcement learning models (such as DreamerV3).
 - Overcame bias in paraphrase identification by using transformers & out-of-distribution detection techniques: "[GAPX: Generalized](https://haydenhousen.com/media/GAPX.pdf) [Autoregressive Paraphrase-Identification X](https://haydenhousen.com/media/GAPX.pdf)." Published in **NeurIPS 2022** (3rd author). Advised by Dr. Sernam Lim at Meta AI.
 
 ### <span>Machine Learning Intern</span> <span><span><a href="https://ada.cx">Ada Support</a> (Remote)</span> <span>May 2022 -- Aug 2022</span></span>
@@ -51,12 +54,6 @@ hand -->
 
 ## Projects
 
-### <span>AI Music Workstation</span> <span><span><a href="https://sonauto.app">Sonauto</a></span> <span>Jan 2023 -- Present</span></span>
-
-- Training diffusion models to generate long-form pop songs through a collaboration with StabilityAI researchers.
-- Developing a diffusion autoencoder using PyTorch, achieving 64x music compression to a continuous latent space, by testing various diffusion objectives, loss functions, and attention mechanisms.
-- Creating [an app](https://sonauto.app) with React Native and Firebase to streamline hit pop song creation using generative AI.
-
 ### <span>AI Lecture Notes Generation</span> <span><span><a href="https://haydenhousen.com/projects/lecture2notes/">lecture2notes</a></span> <span>Sept 2019 -- Jan 2022</span></span>
 
 - Created a state-of-the-art system to summarize classroom lectures using PyTorch, transformers (BERT), optical character recognition, speech to text, and convolutional neural networks. Source on [GitHub](https://github.com/HHousen/lecture2notes/). Learn more in the [research paper](https://haydenhousen.com/media/lecture2notes-paper-v1.pdf).
@@ -65,30 +62,24 @@ hand -->
 
 ### <span>Neural Summarization Library</span> <span><span><a href="https://github.com/HHousen/TransformerSum">TransformerSum</a></span> <span>Mar 2020 -- Oct 2020</span></span>
 
-- Furthered research in neural-network text summarization with a focus on long document summarization. **340+ stars on [GitHub](https://github.com/HHousen/TransformerSum)**.
+- Furthered research in neural-network text summarization with a focus on long document summarization. **400+ stars on [GitHub](https://github.com/HHousen/TransformerSum)**.
 - 4.45x smaller than the state-of-the-art model but 94% as accurate at release. 10+ pre-trained models available.
 - Rewrote researchers' code with enhanced performance and a focus on code readability and [thorough documentation](https://transformersum.readthedocs.io/en/latest/).
 
-<!-- ### <span>AI Snow Day Prediction</span> <span><span><a href="https://haydenhousen.com/projects/will-i-have-a-snow-day/">Will I Have A Snow Day.com</a></span> <span>Dec 2019 -- Sept 2020</span></span>
+### <span>More Projects</span>
 
-- Created an AI-powered automatic snow day predictor website that improves itself over time using user feedback. Powered by XGBoost, scikit-learn, Materialize.css, SendGrid, and Flask. Source on [GitHub](https://github.com/HHousen/willihaveasnowday).
-- Scraped school closings and processed **100GB+** of weather data from NOAA to build a snow day dataset.
-- Trained a gradient boosting classifier after extensive data exploration and feature engineering.
-
-### <span>Cybersecurity Challenges</span> <span><span>Capture The Flag</span> <span>Sept 2019 -- Current</span></span>
-
-- Placed in **top 3%** on average in the PicoCTF [2019](https://github.com/HHousen/PicoCTF-2019)/[2021](https://github.com/HHousen/PicoCTF-2021)/[2022](https://github.com/HHousen/PicoCTF-2022) competitions. Learned ethical hacking skills including web exploitation, cryptography, reverse engineering, and binary exploitation. Worked with popular tools included in Kali Linux.
-- Wrote technical guides with **over 94,000 views** to document my learning and help others.
-- Continuously practicing cybersecurity principles by solving HackTheBox.com machines and [publishing writeups](https://htb.haydenhousen.com/). -->
+- **[Advent of Code](https://github.com/HHousen/advent-of-code)** (2020-present) - Solved 125 coding puzzles (one per day from December 1st to 25th for half a decade) in Python.
+- **[Will I Have A Snow Day.com](https://haydenhousen.com/projects/will-i-have-a-snow-day/)** (2020) - **130,000 users** in winter 2024. Processed 100GB+ of weather data from NOAA. Trained a gradient boosting classifier. Powered by XGBoost, scikit-learn, Materialize.css, SendGrid, and Flask.
+- **Cyber Security Challenges** (2019-2022) - Placed in the top 3% on average in the PicoCTF [2019](https://github.com/HHousen/PicoCTF-2019)/[2021](https://github.com/HHousen/PicoCTF-2021)/[2022](https://github.com/HHousen/PicoCTF-2022) competitions. Solved 24 live [HackTheBox machines](https://htb.haydenhousen.com/). Wrote technical guides with **over 100,000 views** to document my learning and help others.
 
 ## Technologies and Languages
 
-<span>Languages</span> <span>Python, Java, JavaScript, HTML/CSS, SQL, OCaml, C, Bash</span>
+<span>Languages</span> <span>Python, TypeScript, JavaScript, Java, HTML & CSS, SQL, OCaml, C, Bash</span>
 
-<span>Machine Learning</span> <span>PyTorch, transformers (BERT), scikit-learn, NumPy, Lightning, pandas, OpenCV, Spacy</span>
+<span>Machine Learning</span> <span>PyTorch, transformers (GPT), scikit-learn, NumPy, Lightning, pandas, OpenCV, Spacy</span>
 
-<span>Web</span> <span>Flask, FastAPI, React Native (Expo), Bootstrap, jQuery, web scraping, API design</span>
+<span>Web</span> <span>React, Next.js, Tailwind CSS, FastAPI, Flask, React Native (Expo), Node.js, WebSockets, web scraping</span>
 
-<span>DB and DevOps</span> <span>MongoDB, PostgreSQL, MySQL, Docker, AWS, Firebase, Supabase, CI/CD, Git</span>
+<span>DB and DevOps</span> <span>PostgreSQL, Docker, Supabase, Azure, AWS, MongoDB, MySQL, Firebase, Celery, CI/CD, Git</span>
 
 <!-- Resume [generated from markdown](https://github.com/HHousen/resume) and styled with my custom CSS via a python script. -->
