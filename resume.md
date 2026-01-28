@@ -16,9 +16,9 @@ is intended to be used for a short summary. -->
 
 ## Education
 
-### <span>Cornell University</span> <span><span>Computer Science, BS</span> <span>Aug 2021 -- May 2025</span></span>
+### <span>Cornell University</span> <span><span>Computer Science, BS</span> <span>Aug 2026</span></span>
 
-- GPA: 3.865, Dean's Honor List, Rawlings Presidential Research Scholar, Cybersecurity Club President
+- GPA: 3.87, Dean's Honor List, Rawlings Presidential Research Scholar, Cybersecurity Club President
 - Coursework: Machine Learning, Artificial Intelligence, Functional Programming, Linear Algebra, Probability and Statistics
 
 ## Work Experience
@@ -62,13 +62,13 @@ hand -->
 
 ### <span>Neural Summarization Library</span> <span><span><a href="https://github.com/HHousen/TransformerSum">TransformerSum</a></span> <span>Mar 2020 -- Oct 2020</span></span>
 
-- Furthered research in neural-network text summarization with a focus on long document summarization. **400+ stars on [GitHub](https://github.com/HHousen/TransformerSum)**.
+- Furthered research in neural-network text summarization with a focus on long document summarization. **430+ stars on [GitHub](https://github.com/HHousen/TransformerSum)**.
 - 4.45x smaller than the state-of-the-art model but 94% as accurate at release. 10+ pre-trained models available.
 - Rewrote researchers' code with enhanced performance and a focus on code readability and [thorough documentation](https://transformersum.readthedocs.io/en/latest/).
 
 ### <span>More Projects</span>
 
-- **[Advent of Code](https://github.com/HHousen/advent-of-code)** (2020-present) - Solved 125 coding puzzles (one per day from December 1st to 25th for half a decade) in Python.
+- **[Advent of Code](https://github.com/HHousen/advent-of-code)** (2020-present) - Solved 137 coding puzzles (roughly one per day from December 1st to 25th for 6 years) in Python.
 - **[Will I Have A Snow Day.com](https://haydenhousen.com/projects/will-i-have-a-snow-day/)** (2020) - **130,000 users** in winter 2024. Processed 100GB+ of weather data from NOAA. Trained a gradient boosting classifier. Powered by XGBoost, scikit-learn, Materialize.css, SendGrid, and Flask.
 - **Cyber Security Challenges** (2019-2022) - Placed in the top 3% on average in the PicoCTF [2019](https://github.com/HHousen/PicoCTF-2019)/[2021](https://github.com/HHousen/PicoCTF-2021)/[2022](https://github.com/HHousen/PicoCTF-2022) competitions. Solved 24 live [HackTheBox machines](https://htb.haydenhousen.com/). Wrote technical guides with **over 100,000 views** to document my learning and help others.
 
