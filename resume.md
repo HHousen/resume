@@ -18,7 +18,7 @@ is intended to be used for a short summary. -->
 
 ### <span>Cornell University</span> <span><span>Computer Science, BS</span> <span>Aug 2026</span></span>
 
-- GPA: 3.87, Dean's Honor List, Rawlings Presidential Research Scholar, Cybersecurity Club President
+- Dean's Honor List, Rawlings Presidential Research Scholar, Cybersecurity Club President
 - Coursework: Machine Learning, Artificial Intelligence, Functional Programming, Linear Algebra, Probability and Statistics
 
 ## Work Experience
@@ -38,7 +38,7 @@ hand -->
 ### <span>Undergraduate Researcher</span> <span><span>Cornell University</span> <span>Sept 2021 -- May 2023</span></span>
 
 - Worked with Dr. Kevin Ellis on unsupervised object discovery using Slot Attention (open source on [GitHub](https://github.com/HHousen/object-discovery-pytorch)) and investigated the scaling capabilities of reinforcement learning models (such as DreamerV3).
-- Overcame bias in paraphrase identification by using transformers & out-of-distribution detection techniques: "[GAPX: Generalized](https://haydenhousen.com/media/GAPX.pdf) [Autoregressive Paraphrase-Identification X](https://haydenhousen.com/media/GAPX.pdf)." Published in **NeurIPS 2022** (3rd author). Advised by Dr. Sernam Lim at Meta AI.
+- Overcame bias in paraphrase identification by using transformers & out-of-distribution detection techniques: "[GAPX: Generalized](https://arxiv.org/abs/2210.01979) [Autoregressive Paraphrase-Identification X](https://arxiv.org/abs/2210.01979)." Published in **NeurIPS 2022** (3rd author). Advised by Dr. Sernam Lim at Meta AI.
 
 ### <span>Machine Learning Intern</span> <span><span><a href="https://ada.cx">Ada Support</a> (Remote)</span> <span>May 2022 -- Aug 2022</span></span>
 
